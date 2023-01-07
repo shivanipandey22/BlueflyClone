@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+   
+    <style>
+        #create {
+            text-align: center;
+
+        }
+
+        #form {
+            display: grid;
+            gap: 10px;
+            
+            width: 50%;
+            margin: auto;
+            font-size: 13px;
+        }
+        #para{
+            display: flex;
+        }
+
+        input {
+            font-size: 27px;
+        }
+
+        #submit {
+margin-bottom: 20px;
+            color: white;
+            background-color: black;
+        }
+        #images{
+            display: flex;
+        }
+        #bottom_img{
+            display: flex;
+        }
+        #image3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            width: 100%;
+            height: 530px;
+            margin-top: 15px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+           
+        }
+
+        #image3_btn1,
+        #image3_btn2,
+        #image3_btn3 {
+            border-color: rgb(229, 224, 224);
+        }
+
+        #image3_btn1 {
+            margin-left: 175px;
+
+        }
+
+        #image3_btn2 {
+            margin-left: 150px;
+        }
+
+        #image3_btn3 {
+            margin-left: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navbar -->
+
+<div id="icon">
+    <img onclick="window.location.href='index.html'" src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/BLUEFLY-LOGO-11-20.png?v=1613183141" alt="">
+</div>
+
+<div id="symbol">
+    <span class="material-symbols-outlined">
+        search
+    </span>
+    <span class="material-symbols-outlined">
+        shopping_bag
+    </span>
+    <span onclick="window.location.href='login.html'" class="material-symbols-outlined">
+        person
+    </span>
+</div>
+
+<div id="nav">
+    <div>
+        <p><a href="./clothing.html">CLOTHING</a></p>
+    </div>
+    <div>
+        <p><a href="./shoes.html">SHOES</a></p>
+    </div>
+    <div>
+        <p><a href="./sunglasses.html">SUNGLASSES</a></p>
+    </div>
+    <div>
+        <p><a href="./beauty.html">BEAUTY</a></p>
+    </div>
+</div>
+
+
+
+<div id="line">
+    <p>FREE SHIPPING on Orders Over $99</p>
+</div>
+
+<!-- navbar -->
+    <h1 id="create">CREATE ACCOUNT</h1>
+    <div>
+        <form id="form">
+            <label for="">FIRST NAME</label>
+            <input type="text" id="fname"><br>
+
+            <label for="">LAST NAME</label>
+            <input type="text" id="lname"><br>
+
+            <label for="">EMAIL</label>
+            <input type="email" id="email"><br>
+
+            <label for="">PASSWORD</label>
+            <input type="password" id="password"><br>
+
+            <div id="para">
+                <input type="checkbox">
+                <p >Subscribe to stay updated with new offers!</p>
+            </div>
+
+            <input type="submit" id="submit" value="CREATE" onclick="window.location.href='login.html'">
+        </form>
+    </div>
+        <hr>
+
+      <div id="image3">
+        <div>
+            <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1010885217_RLLZ_2_large.jpg?v=1671799286"
+                alt="">
+            <button id="image3_btn1" onclick="window.location.href='denim.html'">SHOP DENIM</button>
+        </div>
+
+        <div>
+            <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411487976_RLLZ_2_large.jpg?v=1671361570"
+                , alt="">
+            <button id="image3_btn2" onclick="window.location.href='jumpsuit.html'">SHOP JUMPSUITS</button>
+        </div>
+
+        <div>
+            <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/gg0595s-30008116-009__2_large.jpg?v=1671731934"
+                alt="">
+            <button id="image3_btn3" onclick="window.location.href='accessories.html'">SHOP WOMEN'S ACCESSORIES</button>
+        </div>
+      </div>
+    
+    <!-- footer -->
+    <div id="footer_main">
+        <div id="footer1">
+            <p>ABOUT US</p>
+            <p>SIGN UP & SAVE</p>
+        </div>
+        <div id="footer2">
+            <div>
+                <p>Contact Us</p>
+                <p>Frequently Asked Questions</p>
+                <p>Shipping & Returns</p>
+                <p>Pre-Owned Guide</p>
+            </div>
+
+            <div>
+                <p>Sell on Bluefly</p>
+                <p>Privacy Policy </p>
+                <p>Terms & Conditions</p>
+                <p>Do not sell my personal information </p>
+            </div>
+
+            <div>
+                <p> Subscribe to get exclusive offers on designer brands</p>
+                <input id="footer_btn1" type="text" placeholder="Enter your email">
+                <button id="footer_btn2" onclick="window.location.href='signup.html'">Subscribe</button>
+            </div>
+        </div>
+
+        <div id="socialIcon">
+            <img class="footer_img1" src="https://img.freepik.com/free-vector/instagram-icon_1057-2227.jpg?w=2000" alt="">
+            <img class="footer_img1"src="https://cdn-icons-png.flaticon.com/512/44/44646.png" alt="">
+        </div>
+        <div id="footer_img2">
+            <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/Untitled_2_.png_5_x104@2x.png?v=1620852820"
+                alt="">
+                <P id="footer_img2">2022 Bluefly 1998-2020 BLUEFLY.COM OR ITS AFFILIATES ALL RIGHTS RESERVED.</P>
+        </div>
+    </div>
+    <!-- footer -->
+</body>
+<script>
+    document.getElementById("form").addEventListener("submit", mySignup);
+    
+    function mySignup() {
+        event.preventDefault();
+
+        let form = document.getElementById("form");
+        var signObj = {
+            firstName: form.fname.value,
+            lastName: form.lname.value,
+            Email: form.email.value,
+            Password: form.password.value,
+        }
+        
+        console.log(signObj);
+
+        localStorage.setItem("signUp", JSON.stringify(signObj))
+        
+    }
+</script>
+
+</html>

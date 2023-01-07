@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <style>
+        #shop_category {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            align-content: center;
+            margin: auto;
+
+            width: 80%;
+        }
+
+        .banner_img {
+            width: 100%;
+
+        }
+
+        .banner_btn {
+            border: none;
+            height: 30px;
+        }
+
+        #shop_category button {
+            width: 60%;
+        }
+
+        #home1 img {
+            width: 100%;
+            height: 550px;
+        }
+
+        #home2 img {
+            width: 100%;
+            height: 450px;
+        }
+
+        #home3 img {
+            width: 100%;
+            height: 550px;
+        }
+
+        #newArrivals {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            width: 100%;
+            text-align: center;
+            margin-top: 20px;
+
+        }
+
+        .bannerAll button {
+            margin-left: 60px;
+            margin-bottom: 20px;
+        }
+        #footer_main{
+            margin-top: 65px;
+        }
+
+        .view_btn {
+            border: none;
+            height: 30px;
+        }
+
+        .arrival1 {
+            width: 100%;
+            height: 350px;
+        }
+
+        .trending1 {
+            width: 100%;
+            height: 350px;
+        }
+
+        .trend {
+            margin-left: 60px;
+        }
+
+        #trending_now {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        #shop_cat1 {
+            text-align: center;
+        }
+
+        #view1 {
+            text-align: center;
+        }
+
+        #view2 {
+            text-align: center;
+        }
+
+        #image1 {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            /* border: 1px solid blue; */
+            margin-bottom: 40px;
+        }
+
+        .images {
+            width: 100%;
+            height: 300px;
+            
+        }
+
+        .image2 {
+            justify-content: center;
+            height: 80px;
+            margin-left: 120px;
+            margin-top: -12px;
+            /* border: 1px solid red; */
+        }
+
+        #image3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            width: 100%;
+            height: 530px;
+            margin-top: 15px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            /* border: 1px solid green; */
+        }
+
+        #image3_btn1, #image3_btn2,#image3_btn3 {
+            border-color: rgb(229, 224, 224);
+        }
+        #image3_btn1{
+       margin-left: 175px;
+       
+        }
+
+        #image3_btn2{
+       margin-left: 150px;
+        }
+
+        #image3_btn3{
+       margin-left: 30px;
+        }
+
+        .img_shadow {
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- navbar -->
+
+    <div id="icon">
+        <img onclick="window.location.href='index.html'"
+            src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/BLUEFLY-LOGO-11-20.png?v=1613183141" alt="">
+    </div>
+
+    <div id="symbol">
+        <span class="material-symbols-outlined">
+            search
+        </span>
+        <span class="material-symbols-outlined">
+            shopping_bag
+        </span>
+        <span onclick="window.location.href='login.html'" class="material-symbols-outlined">
+            person
+        </span>
+    </div>
+
+    <div id="nav">
+        <div>
+            <p><a href="./clothing.html">CLOTHING</a></p>
+        </div>
+        <div>
+            <p><a href="./shoes.html">SHOES</a></p>
+        </div>
+        <div>
+            <p><a href="./sunglasses.html">SUNGLASSES</a></p>
+        </div>
+        <div>
+            <p><a href="./beauty.html">BEAUTY</a></p>
+        </div>
+    </div>
+
+    <!-- navbar -->
+
+    <div id="home1">
+        <img src="./screenshot/bluefly icon.png" alt="">
+    </div>
+    <div id="home2">
+        <img src="screenshot/bluefly icon2.png" alt="">
+    </div>
+
+    <hr>
+
+    <div>
+        <h2 id="shop_cat1">SHOP BY CATEGORY</h2>
+    </div>
+    <div id="shop_category">
+        <div class="bannerAll">
+            <img class="banner_img" onclick="window.location.href='denim.html'"
+                src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411421699_RLLZ_2_large.jpg?v=1671942607"
+                alt="">
+            <button class="banner_btn" onclick="window.location.href='denim.html'">DENIM</button>
+        </div>
+
+        <div class="bannerAll">
+            <img class="banner_img" onclick="window.location.href='jumpsuit.html'"
+                src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1050113466_RLLZ_2_large.jpg?v=1671692146"
+                alt="">
+            <button class="banner_btn" onclick="window.location.href='jumpsuit.html'">DRESSES</button>
+        </div>
+        <div class="bannerAll">
+            <img class="banner_img" onclick="window.location.href='accessories.html'"
+                src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/507185-w8187-1000__2_large.jpg?v=1671927477"
+                alt="">
+            <button class="banner_btn" onclick="window.location.href='accessories.html'">ACCESSORIES</button>
+        </div>
+
+        <div class="bannerAll">
+            <img class="banner_img" onclick="window.location.href='sunglasses.html'"
+                src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1111181847_RLLZ_2_large.jpg?v=1671922337"
+                alt="">
+            <button class="banner_btn" onclick="window.location.href='sunglasses.html'">SUNGLASSES</button>
+        </div>
+
+        <div class="bannerAll">
+            <img class="banner_img" onclick="window.location.href='shoes.html'"
+                src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1311468939_RLLZ_2_large.jpg?v=1669961661"
+                alt="">
+            <button class="banner_btn" onclick="window.location.href='shoes.html'">SNEAKERS</button>
+        </div>
+
+
+        <div class="bannerAll">
+            <img class="banner_img" onclick="window.location.href='beauty.html'"
+                src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1111200945_RLLZ_1_large.jpg?v=1671675910"
+                alt="">
+            <button class="banner_btn" onclick="window.location.href='beauty.html'">BEAUTY</button>
+        </div>
+    </div>
+    <hr>
+    <div id="home3">
+        <img class="banner_img_top2" src="screenshot/Bluefly icon3.png" alt="">
+    </div>
+
+    <hr>
+
+    <div>
+        <div id="view1">
+            <h1>NEW ARRIVALS</h1>
+            <button class="view_btn" onclick="window.location.href='accessories.html'">VIEW ALL</button>
+        </div>
+
+        <div id="newArrivals">
+            <div>
+                <img class="arrival1"
+                    src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/ma15022g0f-mf0-000__1_1080x.jpg?v=1671927944"
+                    alt="">
+                <p>MOCHINO LOGO-PRINTED SNEAKERS</p>
+                <p>$ 259.00</p>
+            </div>
+            <div>
+                <img class="arrival1"
+                    src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411818041_RLLZ_1_720x.jpg?v=1671743531"
+                    alt="">
+                <p>LAFAYETTE LEATHER JACKET</p>
+                <p>$ 499.00</p>
+            </div>
+            <div>
+                <img class="arrival1"
+                    src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1160351593_RLLZ_1_720x.jpg?v=1671739479"
+                    alt="">
+                <p>MEDEA HANDLE BAG</p>
+                <p>$ 319.00</p>
+            </div>
+            <div>
+                <img class="arrival1"
+                    src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/ma2131ac0f-mb0-00a__1_720x.jpg?v=1671919007"
+                    alt="">
+                <p>MOCHINO HIGH-HEEL BOOTS</p>
+                <p>$ 599.00</p>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div>
+        <div id="view2">
+            <h1>TRENDING NOW</h1>
+            <button class="view_btn" onclick="window.location.href='accessories.html'">VIEW ALL</button>
+        </div>
+        <div id="trending_now">
+            <div>
+                <img class="trending1" onclick="window.location.href='accessories.html'"
+                    src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1044770_9a3e0b24-b5a0-44fa-99ef-9dcbb055fc56_1800x1800.jpg?v=1633855402"
+                    alt="">
+                <p class="trend">BALENCIAGA HANDBAGS</p>
+                <p class="trend">$ 167.78</p>
+            </div>
+            <div>
+                <img class="trending1" onclick="window.location.href='shoes.html'"
+                    src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1070510_720x.jpg?v=1633732658"
+                    alt="">
+                <p class="trend">GIVENCHY ANKLE BOOTS</p>
+                <p class="trend">$ 672.00</p>
+            </div>
+            <div>
+                <img class="trending1" onclick="window.location.href='accessories.html'"
+                    src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1035747_720x.jpg?v=1635150228"
+                    alt="">
+                <p class="trend">SAINT LAURENT BACKPACK</p>
+                <p class="trend">$ 612.00</p>
+            </div>
+            <div>
+                <img class="trending1" onclick="window.location.href='shoes.html'"
+                    src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1468937_720x.jpg?v=1635162265"
+                    alt="">
+                <p class="trend">OFF-WHITE ANKLE BOOTS</p>
+                <p class="trend">$ 604.45</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="image1">
+        <div class="img_shadow">
+            <img class="images" src="https://media.tagembed.com/post/46588/57802/87415/17856298007811326.png" alt="">
+            <img class="image2" src="https://media.tagembed.com/post/46588/57802/87415/profile/87415.jpg" alt="">
+            <h2>WOMEN'S TOPS & TEES UP TO 80% OFF!! </h2>
+            <P>Featuring: @prada, @johnywas, @burberry, @vince & More</P>
+            <p>https://www.bluefly.com/collections</p>
+        </div>
+        <div class="img_shadow">
+
+            <img class="images" src="https://media.tagembed.com/post/46588/57802/87415/18209720614166158.png" alt="">
+            <img class="image2" src="https://media.tagembed.com/post/46588/57802/87415/profile/87415.jpg" alt="">
+            <h2>Handbags For You UP TO 70% OFF!!</h2>
+            <p>Featuring:@gucci, @ysl,@balenciaga & More</p>
+            <p>https://www.bluefly.com/collections</p>
+
+        </div>
+        <div class="img_shadow">
+            <img class="images" src="https://media.tagembed.com/post/46588/57802/87415/17956703651056155.png" alt="">
+            <img class="image2" src="https://media.tagembed.com/post/46588/57802/87415/profile/87415.jpg" alt="">
+            <h2>Shop Women's Pumps & Heels SAVE UP TO 80% OFF!!</h2>
+            <p>Featuring:@gucci, @ysl,@balenciaga & More</p>
+            <p>https://www.bluefly.com/collections</p>
+        </div>
+        <div class="img_shadow">
+            <img class="images" src="https://media.tagembed.com/post/46588/57802/87415/17974270546706060.png" alt="">
+            <img class="image2" src="https://media.tagembed.com/post/46588/57802/87415/profile/87415.jpg" alt="">
+            <h2>SHOP BURBERRY SAVE UP TO 60% OFF!!</h2>
+            <p>#burberry #burberrylondon #burberrybag</p>
+            <p>https://www.bluefly.com/collections</p>
+        </div>
+    </div>
+    <hr>
+
+
+    <div id="image3">
+        <div>
+            <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1010885217_RLLZ_2_large.jpg?v=1671799286"
+                alt="">
+            <button id="image3_btn1" onclick="window.location.href='denim.html'">SHOP DENIM</button>
+        </div>
+
+        <div>
+            <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411487976_RLLZ_2_large.jpg?v=1671361570"
+                , alt="">
+            <button id="image3_btn2" onclick="window.location.href='jumpsuit.html'">SHOP JUMPSUITS</button>
+        </div>
+
+        <div>
+            <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/gg0595s-30008116-009__2_large.jpg?v=1671731934"
+                alt="">
+            <button id="image3_btn3" onclick="window.location.href='accessories.html'">SHOP WOMEN'S
+                ACCESSORIES</button>
+        </div>
+    </div>
+
+  
+    <!-- footer -->
+    <div id="footer_main">
+        <div id="footer1">
+            <p>ABOUT US</p>
+            <p>SIGN UP & SAVE</p>
+        </div>
+        <div id="footer2">
+            <div>
+                <p>Contact Us</p>
+                <p>Frequently Asked Questions</p>
+                <p>Shipping & Returns</p>
+                <p>Pre-Owned Guide</p>
+            </div>
+
+            <div>
+                <p>Sell on Bluefly</p>
+                <p>Privacy Policy </p>
+                <p>Terms & Conditions</p>
+                <p>Do not sell my personal information </p>
+            </div>
+
+            <div>
+                <p> Subscribe to get exclusive offers on designer brands</p>
+                <input id="footer_btn1" type="text" placeholder="Enter your email">
+                <button id="footer_btn2" onclick="window.location.href='signup.html'">Subscribe</button>
+            </div>
+        </div>
+
+        <div id="socialIcon">
+            <img class="footer_img1" src="https://img.freepik.com/free-vector/instagram-icon_1057-2227.jpg?w=2000" alt="">
+            <img class="footer_img1"src="https://cdn-icons-png.flaticon.com/512/44/44646.png" alt="">
+        </div>
+        <div id="footer_img2">
+            <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/Untitled_2_.png_5_x104@2x.png?v=1620852820"
+                alt="">
+                <P id="footer_img2">2022 Bluefly 1998-2020 BLUEFLY.COM OR ITS AFFILIATES ALL RIGHTS RESERVED.</P>
+        </div>
+    </div>
+    <!-- footer -->
+
+</body>
+
+</html>

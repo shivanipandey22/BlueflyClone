@@ -1,0 +1,20 @@
+#icon{
+    text-align: center;
+    
+}
+#symbol{
+    text-align: right;
+    
+}
+#nav{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+#line{
+    display: flex;
+    justify-content: center;
+    border: 1px;
+    background-color: black;
+    color: white;
+}

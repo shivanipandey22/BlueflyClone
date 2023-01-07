@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <style>
+          #products{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            font-size: 15px;
+            
+        }
+        #products img{
+            height: 250px;
+            
+        }
+        #allBox{
+            display: flex;
+            justify-content: space-between;
+            gap: 60px;
+        }
+        .collection1{
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <!-- navbar -->
+
+<div id="icon">
+    <img onclick="window.location.href='index.html'" src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/BLUEFLY-LOGO-11-20.png?v=1613183141" alt="">
+</div>
+
+<div id="symbol">
+    <span class="material-symbols-outlined">
+        search
+    </span>
+    <span class="material-symbols-outlined">
+        shopping_bag
+    </span>
+    <span onclick="window.location.href='login.html'" class="material-symbols-outlined">
+        person
+    </span>
+</div>
+
+<div id="nav">
+    <div>
+        <p><a href="./clothing.html">CLOTHING</a></p>
+    </div>
+    <div>
+        <p><a href="./shoes.html">SHOES</a></p>
+    </div>
+    <div>
+        <p><a href="./sunglasses.html">SUNGLASSES</a></p>
+    </div>
+    <div>
+        <p><a href="./beauty.html">BEAUTY</a></p>
+    </div>
+</div>
+
+
+
+<div id="line">
+    <p>FREE SHIPPING on Orders Over $99</p>
+</div>
+
+<!-- navbar -->
+    <h2>SHOES</h2>
+    <h2 id="shoes1"></h2>
+    <div id="allBox">
+        <div id="left">
+            <div>COLLECTIONS
+                <div class="collection1">
+                    <input type="checkbox" id="women" value="Women">
+                    <p >Women</p>
+                </div>
+                <div class="collection1">
+                    <input type="checkbox" id="men" value="Men">
+                    <p >Men</p>
+                </div>
+           
+                <div class="collection1">
+                    <input type="checkbox">
+                    <p >Shop All</p>
+                </div>
+
+            </div><hr>
+            <div>CATEGORY
+                <div class="collection1">
+                    <input type="checkbox">
+                    <p >Shoes</p>
+                </div>
+                <div class="collection1">
+                    <input type="checkbox">
+                    <p >Sneakers</p>
+                </div>
+                
+            </div><hr>
+
+            <div>BRAND
+                <div class="collection1">
+                    <input type="checkbox" id="nike" value="Nike">
+                    <p >Nike</p>
+                </div>
+                <div class="collection1">
+                    <input type="checkbox" id="veja" value="VEJA">
+                    <p >VEJA</p>
+                </div>
+                <div class="collection1">
+                    <input type="checkbox" id="bottega" value="Bottega Veneta">
+                    <p >Bottega Veneta</p>
+                </div>
+                
+            </div><hr>
+            <div>COLOR</div><hr>
+            <div>SHOE SIZE</div><hr>
+            <div>HEEL HEIGHT</div>
+        </div>
+        <div id="products"></div>
+    </div>
+
+        <!-- footer -->
+        <div id="footer_main">
+            <div id="footer1">
+                <p>ABOUT US</p>
+                <p>SIGN UP & SAVE</p>
+            </div>
+            <div id="footer2">
+                <div>
+                    <p>Contact Us</p>
+                    <p>Frequently Asked Questions</p>
+                    <p>Shipping & Returns</p>
+                    <p>Pre-Owned Guide</p>
+                </div>
+    
+                <div>
+                    <p>Sell on Bluefly</p>
+                    <p>Privacy Policy </p>
+                    <p>Terms & Conditions</p>
+                    <p>Do not sell my personal information </p>
+                </div>
+    
+                <div>
+                    <p> Subscribe to get exclusive offers on designer brands</p>
+                    <input id="footer_btn1" type="text" placeholder="Enter your email">
+                    <button id="footer_btn2" onclick="window.location.href='signup.html'">Subscribe</button>
+                </div>
+            </div>
+    
+            <div id="socialIcon">
+                <img class="footer_img1" src="https://img.freepik.com/free-vector/instagram-icon_1057-2227.jpg?w=2000" alt="">
+                <img class="footer_img1"src="https://cdn-icons-png.flaticon.com/512/44/44646.png" alt="">
+            </div>
+            <div id="footer_img2">
+                <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/Untitled_2_.png_5_x104@2x.png?v=1620852820"
+                    alt="">
+                    <P id="footer_img2">2022 Bluefly 1998-2020 BLUEFLY.COM OR ITS AFFILIATES ALL RIGHTS RESERVED.</P>
+            </div>
+        </div>
+        <!-- footer -->
+</body>
+<script src="./shoes.js"></script>
+</html>

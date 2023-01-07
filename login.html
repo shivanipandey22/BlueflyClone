@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <style>
+        #images {
+            display: flex;
+            height: 50px;
+        }
+
+        #line1 {
+            /* display: flex; */
+            justify-content: center;
+            margin-top: 40px;
+            
+            width: 50%;
+            margin: auto;
+        }
+
+        #form1 {
+            width: 60%;
+            margin-left: 150px;
+        }
+
+        #login_btn {
+            width: 60%;
+           
+            text-align: center;
+            margin-left: 123px;
+        }
+    
+        #email,
+        #password {
+
+            height: 40px;
+            width: 350px;
+           
+        }
+        .emailBtn{
+            font-size: 12px;
+        }
+
+         #submit {
+            background-color: black;
+            color: white;
+            margin-top: 10px;
+            height: 50px;
+            /* width: 60%; */
+            align-self: center;
+            width: 358px;
+            font-size: 20px;
+            
+        }
+
+        #create {
+            border: none;
+            width: 358px;
+            height: 50px;
+            margin-top: 10px;
+            /* width: 60%; */
+            font-size: 20px;
+        }
+
+        #log1 {
+            text-align: center;
+        }
+
+        #forgot {
+            margin-left: 158px;
+            font-size: 14px;
+        }
+
+        #image3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            width: 100%;
+            height: 530px;
+            margin-top: 15px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+           
+        }
+
+        #image3_btn1,
+        #image3_btn2,
+        #image3_btn3 {
+            border-color: rgb(229, 224, 224);
+        }
+
+        #image3_btn1 {
+            margin-left: 175px;
+
+        }
+
+        #image3_btn2 {
+            margin-left: 150px;
+        }
+
+        #image3_btn3 {
+            margin-left: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navbar -->
+
+    <div id="icon">
+        <img onclick="window.location.href='index.html'"
+            src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/BLUEFLY-LOGO-11-20.png?v=1613183141" alt="">
+    </div>
+
+    <div id="symbol">
+        <span class="material-symbols-outlined">
+            search
+        </span>
+        <span class="material-symbols-outlined">
+            shopping_bag
+        </span>
+        <span class="material-symbols-outlined">
+            person
+        </span>
+    </div>
+
+    <div id="nav">
+        <div>
+            <p><a href="./clothing.html">CLOTHING</a></p>
+        </div>
+        <div>
+            <p><a href="./shoes.html">SHOES</a></p>
+        </div>
+        <div>
+            <p><a href="./sunglasses.html">SUNGLASSES</a></p>
+        </div>
+        <div>
+            <p><a href="./beauty.html">BEAUTY</a></p>
+        </div>
+    </div>
+    <div id="line">
+        <p>FREE SHIPPING on Orders Over $99</p>
+    </div>
+    <!-- navbar -->
+    <div>
+        <h1 id="log1">LOGIN</h1>
+        <div id="line1">
+
+            <form id="form1">
+                <label class="emailBtn" for="">EMAIL</label><br>
+                <input type="email" id="email"><br>
+
+                <div>
+                    <label class="emailBtn" for="">PASSWORD</label>
+                    <label id="forgot" for="">Forgot password?</label>
+                </div>
+                <input type="password" id="password"><br>
+
+            </form>
+            <div id="login_btn">
+                <button  id="submit" onclick="window.location.href='index.html'">SIGN IN</button><br>
+                <button id="create" onclick="window.location.href='signup.html'">Create Account</button><br>
+            </div>
+
+        </div>
+
+        <hr>
+        <div id="image3">
+            <div>
+                <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1010885217_RLLZ_2_large.jpg?v=1671799286"
+                    alt="">
+                <button id="image3_btn1" onclick="window.location.href='denim.html'">SHOP DENIM</button>
+            </div>
+
+            <div>
+                <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411487976_RLLZ_2_large.jpg?v=1671361570"
+                    , alt="">
+                <button id="image3_btn2" onclick="window.location.href='jumpsuit.html'">SHOP JUMPSUITS</button>
+            </div>
+
+            <div>
+                <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/gg0595s-30008116-009__2_large.jpg?v=1671731934"
+                    alt="">
+                <button id="image3_btn3" onclick="window.location.href='accessories.html'">SHOP WOMEN'S
+                    ACCESSORIES</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <div id="footer_main">
+        <div id="footer1">
+            <p>ABOUT US</p>
+            <p>SIGN UP & SAVE</p>
+        </div>
+        <div id="footer2">
+            <div>
+                <p>Contact Us</p>
+                <p>Frequently Asked Questions</p>
+                <p>Shipping & Returns</p>
+                <p>Pre-Owned Guide</p>
+            </div>
+
+            <div>
+                <p>Sell on Bluefly</p>
+                <p>Privacy Policy </p>
+                <p>Terms & Conditions</p>
+                <p>Do not sell my personal information </p>
+            </div>
+
+            <div>
+                <p> Subscribe to get exclusive offers on designer brands</p>
+                <input id="footer_btn1" type="text" placeholder="Enter your email">
+                <button id="footer_btn2" onclick="window.location.href='signup.html'">Subscribe</button>
+            </div>
+        </div>
+
+        <div id="socialIcon">
+            <img class="footer_img1" src="https://img.freepik.com/free-vector/instagram-icon_1057-2227.jpg?w=2000"
+                alt="">
+            <img class="footer_img1" src="https://cdn-icons-png.flaticon.com/512/44/44646.png" alt="">
+        </div>
+        <div id="footer_img2">
+            <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/Untitled_2_.png_5_x104@2x.png?v=1620852820"
+                alt="">
+            <P id="footer_img2">2022 Bluefly 1998-2020 BLUEFLY.COM OR ITS AFFILIATES ALL RIGHTS RESERVED.</P>
+        </div>
+    </div>
+    <!-- footer -->
+</body>
+<script>
+    var login_data = JSON.parse(localStorage.getItem("signUp"));
+    console.log(login_data);
+
+    document.getElementById("form1").addEventListener("submit", mylogin);
+
+    function mylogin() {
+        event.preventDefault();
+
+        let form = document.getElementById("form1");
+
+        let userEmail = form.email.value;
+        let userPassword = form.password.value;
+        // console.log(login_data.email,);
+        if (login_data.Email === userEmail && login_data.Password === userPassword) {
+            window.location.href = "index.html"
+        }
+        else {
+            alert("wrong credentials")
+        }
+    }
+</script>
+
+</html>

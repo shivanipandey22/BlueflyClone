@@ -1,0 +1,37 @@
+#footer1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 60%; */
+    justify-content: space-between;
+}
+#footer2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.footer_img1{
+    height: 30px;
+    margin-left: 20px;
+
+}
+#footer_img2{
+    height: 100px;
+    
+    text-align: center;
+}
+#footer_btn1{
+    background-color: black;
+    color: white;
+    height: 40px;
+    
+}
+#footer_btn2{
+    background-color: white;
+    color: grey;
+}
+#footer_main{
+    background-color: rgb(220, 215, 215);
+}
+#socialIcon{
+    margin-left: 900px;
+    margin-top: -20px;
+}
